@@ -7,4 +7,5 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_ML_CLU.ipynb - Conversational Language Understating model for interpret voice commands.
 * az_speech_recogn.ipynb - Speech to text
 * az_translator.ipynb - Language Translator
+* az_inteligence.ipynb - Extract information from documents
 Remark. Endpoint and access key should be stored in .env file
