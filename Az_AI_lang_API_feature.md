@@ -14,3 +14,6 @@ I will ilustrate it with detecting language by raw cURL command (powershall synt
 
 ### Variant 2
 `curl.exe -X POST <your_AI_service_endpoint>/language/:analyze-text?api-version=2024-11-01 -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <your_AI_service_KEY>" -d "@lang_detect_payload2.json"`
+
+Note. AI_service_endpoint has format:
+`https://<zure AI services sevice or multi-service account name>.cognitiveservices.azure.com/`
