@@ -48,3 +48,4 @@ curl -X POST 'https://api.cognitive.microsofttranslator.com/translate?api-versio
 -H 'Content-Type: application/json' \
 --data-raw '[{ "text": "How much for the cup of coffee?" }]' | json_pp
 ```
+.
