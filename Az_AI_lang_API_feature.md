@@ -50,11 +50,15 @@ curl -X POST 'https://api.cognitive.microsofttranslator.com/translate?api-versio
 ```
 
 ## run in Docker container
-Azure Cognitive servic can be ran in Docker container either in Azure container instance or localy. 
-Example of local run:
+Azure Cognitive service can be ran in Docker container either in Azure container instance or localy. 
+Example of local run for sentiment analytics (other services use other mcr.microsoft containers, see MS Azure documentation):
 ```
 docker run --rm -it -p 5000:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest Eula=accept Billing=<endpoint> ApiKey=<key>
 ```
 Endpoint and Key should be provided for Azure can make billing for you use image with Azure service.
 
+Wher Docker container with Azure AI service run loclay you can call it with localhost:
+```
+curl -X POST "localhost:5000/text/analytics/v3.1/sentiment" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'The performance was amazing! The sound could have been clearer.'},{'id':2,'text':'The food and service were unacceptable. While the host was nice, the waiter was rude and food was cold.'}]}"
+```
 How to ran in Azure container instance see here: https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html
