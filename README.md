@@ -6,6 +6,7 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_content_safety_text.ipynb - using Azure content safety for categorising text in 4 categories (Hate, SelfHarm,Sexual, Violence).
 * az_custom_vision.ipynb - TRAINING, REGISTERATION and PREDICTION with custom image clasification model
 * az_image_analysis.ipynb - usage Azure AI vision API for image analysis
+* az_image_detection.ipynb - Train, publish and use image detection model with Azure Custom Vision
 * az_inteligence.ipynb - Extract information from documents
 * az_key_vault_usage.py - usage Azure Key Vault to access Azure Cognitive Services.
 * az_ML_CLU.ipynb - Conversational Language Understating model for interpret voice commands.
