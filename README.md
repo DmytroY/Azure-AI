@@ -13,6 +13,7 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_key_vault_usage.py - usage Azure Key Vault to access Azure Cognitive Services.
 * az_ML_CLU.ipynb - Conversational Language Understating model for interpret voice commands.
 * az_ML_train_connect.ipynb - connecting to trained Linear Regression model.
+* az_OCR.ipynb - using AI vision API for recognition handwrited text.
 * az_speech_recogn.ipynb - Speech to text
 * az_translator.ipynb - Language Translator
 
