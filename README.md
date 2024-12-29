@@ -14,6 +14,7 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_ML_CLU.ipynb - Conversational Language Understating model for interpret voice commands.
 * az_ML_train_connect.ipynb - connecting to trained Linear Regression model.
 * az_OCR.ipynb - using AI vision API for recognition handwrited text.
+* az_QnA.ipynb - API interface to Azure Custom question answering knowlege base
 * az_speech_recogn.ipynb - Speech to text
 * az_translator.ipynb - Language Translator
 * az_video_indexer_API.ipynb - using Azure AI Video Indexer API
