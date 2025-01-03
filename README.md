@@ -4,6 +4,7 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_ai_search.ipynb - AI search in the indexed documents.
 * az_content_safety_jaibrake.ipynb - using Prompt shield of Azure content safety.
 * az_content_safety_text.ipynb - using Azure content safety for categorising text in 4 categories (Hate, SelfHarm,Sexual, Violence).
+* az_custom_entiti_recogn.ipynb - using Azure AI Language studio to train and deploy model, API for prediction.
 * az_custom_vision.ipynb - TRAINING, REGISTERATION and PREDICTION with custom image clasification model
 * az_detect_faces.ipynb - Detecting faces by Azure AI Face API with next features: head pose, blur and mask type
 * az_detect_people.ipynb - Detecting people by Azure visual analysis with "PEOPLE" VisualFeature
