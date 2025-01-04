@@ -17,6 +17,7 @@ While study Azure AI I train and deploy several AI models for different use. Thi
 * az_OCR.ipynb - using AI vision API for recognition handwrited text.
 * az_QnA.ipynb - API interface to Azure Custom question answering knowlege base
 * az_speech_recogn.ipynb - Speech to text
+* az_speech_tts_stt.py - using Azure SDK API for recognize speech and than answer aloud(or save wav file)
 * az_text_analysis - Text analysis with Azure cognitive service 
 * az_tet_clasification.ipynb - Custom text clasification with Azure cognitive service API
 * az_translator.ipynb - Language Translator
