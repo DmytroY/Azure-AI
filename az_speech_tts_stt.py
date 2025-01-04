@@ -82,7 +82,7 @@ def TellTime():
     # print("Answering aloud")
 
     # variant 2 - to file
-    filename = "az_speech_output_tts.wav"
+    filename = os.path.join (os.getcwd(), "data", "output", "az_speech_output_tts.wav")
     audio_config = speech_sdk.audio.AudioOutputConfig(filename=filename)   
     speech_synthesizer = speech_sdk.SpeechSynthesizer(speech_config, audio_config)
     print(f"Answering to file {filename}")
