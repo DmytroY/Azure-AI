@@ -1,0 +1,1 @@
+The folder contins Flask application. Run with "flask run" command
