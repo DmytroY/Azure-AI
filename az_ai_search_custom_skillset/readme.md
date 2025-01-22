@@ -4,5 +4,11 @@ Based on [this](https://microsoftlearning.github.io/mslearn-knowledge-mining/Ins
 
 
 1) Create Azure AI services multi-service account resource, fill SUBSCRIPTION_ID, RESOURCE_GROUP and LOCATION in  .env file in parent folder.
-2) Login to Azure CLI (az login) and Run setup.cmd (CMD) or setup.sh(shell) . It will creates storage account, upload data to it, create AI search resource. At the end it will show credentials of of those resourses.
-3) Note *create-search\data_source.json* file, it is definition of data source. In this file add *connectionString* parameter with the connection string for your Azure storage account you received in previous step (also you can find the connection string on the Access keys page of storage account in the Azure portal.)
+2) Login to Azure CLI (az login). Go to the folder where situated setup.cmd (CMD) and setup.sh(shell), run resepectively setup.cmd (CMD) or setup.sh(shell) depending of your terminal program. It will creates storage account, upload data to it, create AI search resource. At the end it will show credentials of of those resourses.
+3)Add to the .env file SEARCH_URL and SEARCH_ADMIN_KEY of you newly created search resource
+4) review next files:
+ *create-search/data_source.json* - it is definition of data source. In this file add *connectionString* parameter with the connection string for your Azure storage account you received in previous step (also you can find the connection string on the Access keys page of storage account in the Azure portal.)
+ *create-search/skillset.json* - definition for a skillset named margies-custom-skillset. In this file fill your Azure AI servuices KEY.
+ *create-search/index.json* -  definition for an index named margies-custom-index.
+ *create-search/indexer.json* - definition for an indexer named margies-custom-indexer.
+ 5) Go to the create-search folder and run either create-search.cmd or create-search.sh. This batch script uses the cURL utility to submit the JSON definitions to the REST interface for your Azure AI Search resource.

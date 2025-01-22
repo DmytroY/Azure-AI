@@ -5,7 +5,7 @@ rem This is original part for set values for your Search service, but we will us
 @REM set admin_key=YOUR_ADMIN_KEY
 
 rem Load environment variables from .env file, namely here we need SEARCH_URL and SEARCH_ADMIN_KEY
-for /f "tokens=1,2 delims==" %%a in ('type ..\.env') do set %%a=%%b
+for /f "tokens=1,2 delims==" %%a in ('type .env') do set %%a=%%b
 
 echo -----
 echo Creating the data source...
