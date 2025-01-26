@@ -1,8 +1,11 @@
 @echo off
 
-rem Set values for your Search service
-set url=YOUR_SEARCH_URL
-set admin_key=YOUR_ADMIN_KEY
+@REM rem Set values for your Search service
+@REM set url=YOUR_SEARCH_URL
+@REM set admin_key=YOUR_ADMIN_KEY
+
+rem Load environment variables from .env file, namely here we need SEARCH_URL and SEARCH_ADMIN_KEY
+for /f "tokens=1,2 delims==" %%a in ('type ../create-search/.env') do set %%a=%%b
 
 echo -----
 echo Updating the skillset...
