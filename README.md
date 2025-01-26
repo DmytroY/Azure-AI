@@ -2,6 +2,7 @@
 
 While study Azure AI I try every API, train and deploy several AI models try them. This repo contains my examples of usage APIs :
 * az_AI_search (folder) - flask application which provide simple site to search preindexed documents in Azure AI search resource.
+* az_AI_search_custom_skillset (folder) - how to enrich search with cusom Azure function results.
 * az_ai_search.ipynb - AI search in the indexed documents simple demonstration in jupyter notebook.
 * az_content_safety_jaibrake.ipynb - using Prompt shield of Azure content safety.
 * az_content_safety_text.ipynb - using Azure content safety for categorising text in 4 categories (Hate, SelfHarm,Sexual, Violence).
