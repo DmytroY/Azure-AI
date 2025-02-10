@@ -1,6 +1,6 @@
 ﻿# Azure  AI services
 
-While study Azure AI I try every API, train and deploy several AI models try them. This repo contains my examples of usage APIs :
+My working examples of using Azure AI: training and deployment AI models, usage of APIs.
 * az_AI_search (folder) - flask application which provide simple site to search preindexed documents in Azure AI search resource.
 * az_AI_search_custom_skillset (folder) - how to enrich search with cusom Azure function results.
 * az_ai_search.ipynb - AI search in the indexed documents simple demonstration in jupyter notebook.
